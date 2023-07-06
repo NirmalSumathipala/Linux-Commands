@@ -1,3 +1,36 @@
+*Network Related Commands
 sudo -l = can see which commands that can run
-
 ip a  = see the network interfaces
+ip n = see the mac addresses linked to devices 
+arp -a = same thing as the above
+
+*Creating File Related Commands
+echo "Nirmal" > name.txt
+**If we want to add any text to above file we have to follow this methoda
+
+echo "This is my name" >> name.txt
+**We must use >> "Double Greater Than Sign"
+
+nano name.txt
+**Type anything you want
+ctrl + x
+ctrl + y
+Hit Enter
+
+mousepad name.txt
+
+*Service related commands
+If you want to list the directory items on a webpage.
+Go to directory [using terminal] -> python3 -m http.server 80 -> put the ip address in the browser.
+
+
+*Enabling SSH and disabling
+systemctl enable ssh
+**Enable
+systemctl disable ssh
+
+
+
+*Updating related commands
+apt update && apt upgrade
+**Disable
