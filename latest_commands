@@ -1,1 +1,3 @@
 sudo -l = can see which commands that can run
+
+ip a  = see the network interfaces
